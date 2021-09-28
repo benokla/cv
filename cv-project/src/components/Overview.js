@@ -5,8 +5,8 @@ class Overview extends Component {
     return (
         <form>
             <p>Name: {this.props.name}</p>
-            <p>E-Mail: </p>
-            <p>Telephone: </p>
+            <p>E-Mail: {this.props.email}</p>
+            <p>Telephone: {this.props.telephone}</p>
         </form>
     )
   }
